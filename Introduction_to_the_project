@@ -1,0 +1,13 @@
+Prime Development area's within the city of Cambridge, located within the County of Cambridgeshire, UK.
+
+Cambridge is an ever expanding city within the UK. The growth of its industry sector, renouned heritage, as well as its close proximity and commutibility to London, makes it a sought after location for younge working professionals. Developers looking to build new properties targeted at young working professionals are aiming to find the ideal locations within and around the city to build new properties. 
+
+The aim of this project is to help provide benifical informaiton to the investors at the Developers on where are the ideal locations to build new properties. As these properties are targeted at younger individuals there are certain criteria that makes properties more desirable and therefor able to be sold or rented at higher values. The criteria that will be evaluted here include, proximity to the city center and highest rated restaurants, bars and pub. Proximity to one of the train stations within the city, as this is desirable to communters. We will also look at the crime statistics provided by the local police force to determine which areas are 'safer', as living within lower crime districts can also be used as a selling point for properties.
+
+To undertake this we must first gather geospacial data on the city and its districts. The Royal Mail, the UKs goverment postal service uses a specific lettering system to divide the districts within each are of the country, termed post codes. We will procure the longitude and latitude data of all postcodes within the UK and convert it to a useable dataset by removing all postcodes not assigned to the city of Cambridge, we will then use these to break down the city into specific districts for analysis.
+
+Every police force within the UK provides monthly statistics of crimes within their area. We will gather the information pertaining to the last 6 months for the Cambrideshire area, filter this to only crimes within our selected districts of Cambridge and visulise this information to provide the investers an idea on which of our districts could be termed the 'safest'.
+
+We will finally gather information on local venues, more specifically restaurnats, bars and pubs with high quality ratings using the Foursquare API and visulise the results.
+
+Finally we will combined all this information to provide the developers with a report on our findings about the most suitable areas within the city of Cambridge for development of properties for young working professionals.
